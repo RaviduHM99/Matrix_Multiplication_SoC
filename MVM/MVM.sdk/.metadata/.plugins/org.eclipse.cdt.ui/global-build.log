@@ -1,0 +1,575 @@
+08:05:54 **** Build of project MVM_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+08:06:24 **** Build of configuration Debug for project MVM ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/MVM.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MVM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MVM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MVM.d" -MT"src/MVM.o" -o "src/MVM.o" "../src/MVM.c"
+'Finished building: ../src/MVM.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MVM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: MVM.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MVM_bsp/ps7_cortexa9_0/lib -o "MVM.elf"  ./src/MVM.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MVM.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MVM.elf  |tee "MVM.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	MVM.elf
+'Finished building: MVM.elf.size'
+' '
+08:07:21 **** Auto Build of configuration Debug for project MVM ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/MVM.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MVM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MVM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MVM.d" -MT"src/MVM.o" -o "src/MVM.o" "../src/MVM.c"
+In file included from ../src/MVM.c:49:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/MVM.c: In function 'send_uart':
+../src/MVM.c:80:28: warning: passing argument 2 of 'XUartPs_Send' from incompatible pointer type [-Wincompatible-pointer-types]
+     XUartPs_Send(&Uart_Ps, &C, 4);
+                            ^
+In file included from ../src/MVM.c:52:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xuartps.h:465:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int **'
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+../src/MVM.c: In function 'recev_matrix':
+../src/MVM.c:96:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     A = recev_word();
+       ^
+../src/MVM.c: In function 'matrix_multiplier':
+../src/MVM.c:100:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_A, 1, &A);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c:101:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_B, 1, &B);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c: In function 'main':
+../src/MVM.c:128:22: warning: passing argument 1 of 'recev_matrix' makes pointer from integer without a cast [-Wint-conversion]
+         recev_matrix(A);
+                      ^
+../src/MVM.c:95:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void recev_matrix(int *A) {
+      ^~~~~~~~~~~~
+../src/MVM.c:129:22: warning: passing argument 1 of 'recev_matrix' makes pointer from integer without a cast [-Wint-conversion]
+         recev_matrix(B);
+                      ^
+../src/MVM.c:95:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void recev_matrix(int *A) {
+      ^~~~~~~~~~~~
+../src/MVM.c:130:27: warning: passing argument 1 of 'matrix_multiplier' makes pointer from integer without a cast [-Wint-conversion]
+         matrix_multiplier(A, B, C);
+                           ^
+../src/MVM.c:99:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void matrix_multiplier(int *A, int *B, int *C) {
+      ^~~~~~~~~~~~~~~~~
+../src/MVM.c:130:30: warning: passing argument 2 of 'matrix_multiplier' makes pointer from integer without a cast [-Wint-conversion]
+         matrix_multiplier(A, B, C);
+                              ^
+../src/MVM.c:99:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void matrix_multiplier(int *A, int *B, int *C) {
+      ^~~~~~~~~~~~~~~~~
+../src/MVM.c:130:33: warning: passing argument 3 of 'matrix_multiplier' makes pointer from integer without a cast [-Wint-conversion]
+         matrix_multiplier(A, B, C);
+                                 ^
+../src/MVM.c:99:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void matrix_multiplier(int *A, int *B, int *C) {
+      ^~~~~~~~~~~~~~~~~
+../src/MVM.c:131:19: warning: passing argument 1 of 'send_uart' makes pointer from integer without a cast [-Wint-conversion]
+         send_uart(C);
+                   ^
+../src/MVM.c:79:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void send_uart(int *C) {
+      ^~~~~~~~~
+../src/MVM.c:128:9: warning: 'A' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(A);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:129:9: warning: 'B' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(B);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:130:9: warning: 'C' is used uninitialized in this function [-Wuninitialized]
+         matrix_multiplier(A, B, C);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/MVM.c'
+' '
+'Building target: MVM.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MVM_bsp/ps7_cortexa9_0/lib -o "MVM.elf"  ./src/MVM.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MVM.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MVM.elf  |tee "MVM.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23332	   1224	  22712	  47268	   b8a4	MVM.elf
+'Finished building: MVM.elf.size'
+' '
+09:35:36 **** Auto Build of configuration Debug for project MVM ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/MVM.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MVM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MVM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MVM.d" -MT"src/MVM.o" -o "src/MVM.o" "../src/MVM.c"
+In file included from ../src/MVM.c:49:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/MVM.c: In function 'send_uart':
+../src/MVM.c:80:28: warning: passing argument 2 of 'XUartPs_Send' from incompatible pointer type [-Wincompatible-pointer-types]
+     XUartPs_Send(&Uart_Ps, &C, 4);
+                            ^
+In file included from ../src/MVM.c:52:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xuartps.h:465:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int **'
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+../src/MVM.c: In function 'recev_matrix':
+../src/MVM.c:96:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     A = recev_word();
+       ^
+../src/MVM.c: In function 'matrix_multiplier':
+../src/MVM.c:100:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_A, 1, &A);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c:101:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_B, 1, &B);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c: In function 'main':
+../src/MVM.c:129:22: warning: passing argument 1 of 'recev_matrix' makes pointer from integer without a cast [-Wint-conversion]
+         recev_matrix(A);
+                      ^
+../src/MVM.c:95:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void recev_matrix(int *A) {
+      ^~~~~~~~~~~~
+../src/MVM.c:130:22: warning: passing argument 1 of 'recev_matrix' makes pointer from integer without a cast [-Wint-conversion]
+         recev_matrix(B);
+                      ^
+../src/MVM.c:95:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void recev_matrix(int *A) {
+      ^~~~~~~~~~~~
+../src/MVM.c:131:27: warning: passing argument 1 of 'matrix_multiplier' makes pointer from integer without a cast [-Wint-conversion]
+         matrix_multiplier(A, B, C);
+                           ^
+../src/MVM.c:99:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void matrix_multiplier(int *A, int *B, int *C) {
+      ^~~~~~~~~~~~~~~~~
+../src/MVM.c:131:30: warning: passing argument 2 of 'matrix_multiplier' makes pointer from integer without a cast [-Wint-conversion]
+         matrix_multiplier(A, B, C);
+                              ^
+../src/MVM.c:99:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void matrix_multiplier(int *A, int *B, int *C) {
+      ^~~~~~~~~~~~~~~~~
+../src/MVM.c:131:33: warning: passing argument 3 of 'matrix_multiplier' makes pointer from integer without a cast [-Wint-conversion]
+         matrix_multiplier(A, B, C);
+                                 ^
+../src/MVM.c:99:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void matrix_multiplier(int *A, int *B, int *C) {
+      ^~~~~~~~~~~~~~~~~
+../src/MVM.c:132:19: warning: passing argument 1 of 'send_uart' makes pointer from integer without a cast [-Wint-conversion]
+         send_uart(C);
+                   ^
+../src/MVM.c:79:6: note: expected 'int *' but argument is of type 'u32 {aka long unsigned int}'
+ void send_uart(int *C) {
+      ^~~~~~~~~
+../src/MVM.c:129:9: warning: 'A' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(A);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:130:9: warning: 'B' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(B);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:131:9: warning: 'C' is used uninitialized in this function [-Wuninitialized]
+         matrix_multiplier(A, B, C);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/MVM.c'
+' '
+'Building target: MVM.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MVM_bsp/ps7_cortexa9_0/lib -o "MVM.elf"  ./src/MVM.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MVM.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MVM.elf  |tee "MVM.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23344	   1224	  22712	  47280	   b8b0	MVM.elf
+'Finished building: MVM.elf.size'
+' '
+18:46:20 **** Clean-only build of configuration Debug for project MVM ****
+make clean 
+rm -rf  ./src/MVM.o ./src/platform.o  ./src/MVM.d ./src/platform.d  MVM.elf.size  MVM.elf
+' '
+18:46:21 **** Auto Build of configuration Debug for project MVM ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/MVM.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MVM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MVM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MVM.d" -MT"src/MVM.o" -o "src/MVM.o" "../src/MVM.c"
+In file included from ../src/MVM.c:49:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/MVM.c: In function 'send_uart':
+../src/MVM.c:80:28: warning: passing argument 2 of 'XUartPs_Send' from incompatible pointer type [-Wincompatible-pointer-types]
+     XUartPs_Send(&Uart_Ps, &C, 4);
+                            ^
+In file included from ../src/MVM.c:52:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xuartps.h:465:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int **'
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+../src/MVM.c: In function 'recev_matrix':
+../src/MVM.c:96:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     A = recev_word();
+       ^
+../src/MVM.c: In function 'matrix_multiplier':
+../src/MVM.c:100:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_A, 1, &A);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c:101:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_B, 1, &B);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c: In function 'main':
+../src/MVM.c:129:9: warning: 'A' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(A);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:130:9: warning: 'B' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(B);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:131:9: warning: 'C' is used uninitialized in this function [-Wuninitialized]
+         matrix_multiplier(A, B, C);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/MVM.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MVM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: MVM.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MVM_bsp/ps7_cortexa9_0/lib -o "MVM.elf"  ./src/MVM.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MVM.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MVM.elf  |tee "MVM.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23328	   1224	  22712	  47264	   b8a0	MVM.elf
+'Finished building: MVM.elf.size'
+' '
+18:54:42 **** Auto Build of configuration Debug for project MVM ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/MVM.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MVM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MVM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MVM.d" -MT"src/MVM.o" -o "src/MVM.o" "../src/MVM.c"
+In file included from ../src/MVM.c:49:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/MVM.c: In function 'send_uart':
+../src/MVM.c:80:28: warning: passing argument 2 of 'XUartPs_Send' from incompatible pointer type [-Wincompatible-pointer-types]
+     XUartPs_Send(&Uart_Ps, &C, 4);
+                            ^
+In file included from ../src/MVM.c:52:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xuartps.h:465:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int **'
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+../src/MVM.c: In function 'matrix_multiplier':
+../src/MVM.c:102:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_A, 1, &A);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c:103:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_B, 1, &B);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c: In function 'main':
+../src/MVM.c:131:9: warning: 'A' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(A);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:132:9: warning: 'B' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(B);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:133:9: warning: 'C' is used uninitialized in this function [-Wuninitialized]
+         matrix_multiplier(A, B, C);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/MVM.c'
+' '
+'Building target: MVM.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MVM_bsp/ps7_cortexa9_0/lib -o "MVM.elf"  ./src/MVM.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MVM.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MVM.elf  |tee "MVM.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23336	   1224	  22712	  47272	   b8a8	MVM.elf
+'Finished building: MVM.elf.size'
+' '
+11:51:24 **** Auto Build of configuration Debug for project MVM ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/MVM.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MVM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MVM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MVM.d" -MT"src/MVM.o" -o "src/MVM.o" "../src/MVM.c"
+In file included from ../src/MVM.c:49:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/MVM.c: In function 'send_uart':
+../src/MVM.c:80:25: warning: passing argument 2 of 'XUartPs_Send' makes pointer from integer without a cast [-Wint-conversion]
+  XUartPs_Send(&Uart_Ps, 5, 4);
+                         ^
+In file included from ../src/MVM.c:52:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xuartps.h:465:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int'
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+../src/MVM.c:81:28: warning: passing argument 2 of 'XUartPs_Send' from incompatible pointer type [-Wincompatible-pointer-types]
+     XUartPs_Send(&Uart_Ps, &C, 4);
+                            ^
+In file included from ../src/MVM.c:52:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xuartps.h:465:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int **'
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+../src/MVM.c: In function 'matrix_multiplier':
+../src/MVM.c:103:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_A, 1, &A);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c:104:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_B, 1, &B);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c: In function 'main':
+../src/MVM.c:132:9: warning: 'A' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(A);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:133:9: warning: 'B' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(B);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:134:9: warning: 'C' is used uninitialized in this function [-Wuninitialized]
+         matrix_multiplier(A, B, C);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/MVM.c'
+' '
+'Building target: MVM.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MVM_bsp/ps7_cortexa9_0/lib -o "MVM.elf"  ./src/MVM.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MVM.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MVM.elf  |tee "MVM.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23356	   1224	  22712	  47292	   b8bc	MVM.elf
+'Finished building: MVM.elf.size'
+' '
+11:52:03 **** Auto Build of configuration Debug for project MVM ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/MVM.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MVM.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MVM_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MVM.d" -MT"src/MVM.o" -o "src/MVM.o" "../src/MVM.c"
+In file included from ../src/MVM.c:49:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../MVM_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/MVM.c: In function 'send_uart':
+../src/MVM.c:80:28: warning: passing argument 2 of 'XUartPs_Send' from incompatible pointer type [-Wincompatible-pointer-types]
+     XUartPs_Send(&Uart_Ps, &C, 4);
+                            ^
+In file included from ../src/MVM.c:52:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xuartps.h:465:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'int **'
+ u32 XUartPs_Send(XUartPs *InstancePtr,u8 *BufferPtr,
+     ^~~~~~~~~~~~
+../src/MVM.c: In function 'matrix_multiplier':
+../src/MVM.c:102:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_A, 1, &A);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c:103:39: warning: passing argument 3 of 'XGpio_DiscreteWrite' makes integer from pointer without a cast [-Wint-conversion]
+     XGpio_DiscreteWrite(&output_B, 1, &B);
+                                       ^
+In file included from ../src/MVM.c:53:0:
+../../MVM_bsp/ps7_cortexa9_0/include/xgpio.h:184:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'int **'
+ void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
+      ^~~~~~~~~~~~~~~~~~~
+../src/MVM.c: In function 'main':
+../src/MVM.c:131:9: warning: 'A' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(A);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:132:9: warning: 'B' is used uninitialized in this function [-Wuninitialized]
+         recev_matrix(B);
+         ^~~~~~~~~~~~~~~
+../src/MVM.c:133:9: warning: 'C' is used uninitialized in this function [-Wuninitialized]
+         matrix_multiplier(A, B, C);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/MVM.c'
+' '
+'Building target: MVM.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MVM_bsp/ps7_cortexa9_0/lib -o "MVM.elf"  ./src/MVM.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MVM.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MVM.elf  |tee "MVM.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23336	   1224	  22712	  47272	   b8a8	MVM.elf
+'Finished building: MVM.elf.size'
+' '

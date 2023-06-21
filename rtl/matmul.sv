@@ -1,6 +1,6 @@
 module matmul #(
-    parameter R1 = 8, C1 = 6, R2 = 6, C2 = 8,
-                W_A = 8, W_B = 8,
+    parameter R1 = 2, C1 = 2, R2 = 2, C2 = 2,
+                W_A = 3, W_B = 3,
     localparam  W_C = W_A + W_B + $clog2(C1)
 ) (
     input logic clk, cen,

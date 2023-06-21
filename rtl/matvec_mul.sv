@@ -1,5 +1,5 @@
 module matvec_mul #(
-    parameter R=8, C=8, W_X=8, W_K=8,
+    parameter R=2, C=2, W_X=3, W_K=3,
     localparam  DEPTH = $clog2(C), 
                 W_M = W_X + W_K,
                 W_Y = W_M + DEPTH

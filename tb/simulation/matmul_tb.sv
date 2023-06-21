@@ -1,7 +1,7 @@
 module matmul_tb;
     timeunit 1ns/1ps;
 
-    localparam R1 = 2, C1 = 2, R2 = 2, C2 = 1,
+    localparam R1 = 2, C1 = 2, R2 = 2, C2 = 2,
                 W_A = 8, W_B = 8,
                 W_C = W_A + W_B + $clog2(C1),
                 LATENCY = $clog2(C1) + 1,
